@@ -1,0 +1,2002 @@
+[
+    {
+        "planeID": "ad5621",
+        "callsign": "ALFT    ",
+        "reg_country": "United States",
+        "height": 2903.22,
+        "onground": false,
+        "speed": 58.68
+    },
+    {
+        "planeID": "a2228b",
+        "callsign": "ASA464  ",
+        "reg_country": "United States",
+        "height": 10668,
+        "onground": false,
+        "speed": 251.42
+    },
+    {
+        "planeID": "aded77",
+        "callsign": "JBU9999 ",
+        "reg_country": "United States",
+        "height": null,
+        "onground": true,
+        "speed": 0
+    },
+    {
+        "planeID": "a5823e",
+        "callsign": "GTI8995 ",
+        "reg_country": "United States",
+        "height": 10363.2,
+        "onground": false,
+        "speed": 232.6
+    },
+    {
+        "planeID": "a977bb",
+        "callsign": "DAL556  ",
+        "reg_country": "United States",
+        "height": 11887.2,
+        "onground": false,
+        "speed": 259.3
+    },
+    {
+        "planeID": "ad9db0",
+        "callsign": "ASA436  ",
+        "reg_country": "United States",
+        "height": 10675.62,
+        "onground": false,
+        "speed": 247.93
+    },
+    {
+        "planeID": "c07e32",
+        "callsign": "ACA1066 ",
+        "reg_country": "Canada",
+        "height": 11277.6,
+        "onground": false,
+        "speed": 221.99
+    },
+    {
+        "planeID": "3c4b35",
+        "callsign": "DLH499  ",
+        "reg_country": "Germany",
+        "height": 10668,
+        "onground": false,
+        "speed": 271.56
+    },
+    {
+        "planeID": "c01040",
+        "callsign": "ACA124  ",
+        "reg_country": "Canada",
+        "height": null,
+        "onground": true,
+        "speed": 7.2
+    },
+    {
+        "planeID": "c0103e",
+        "callsign": "ACA35   ",
+        "reg_country": "Canada",
+        "height": 10005.06,
+        "onground": false,
+        "speed": 224.8
+    },
+    {
+        "planeID": "a38b61",
+        "callsign": "JBU1500 ",
+        "reg_country": "United States",
+        "height": null,
+        "onground": true,
+        "speed": 0
+    },
+    {
+        "planeID": "a9a397",
+        "callsign": "ASA624  ",
+        "reg_country": "United States",
+        "height": 11277.6,
+        "onground": false,
+        "speed": 259.85
+    },
+    {
+        "planeID": "c07b05",
+        "callsign": "ACA316  ",
+        "reg_country": "Canada",
+        "height": 10668,
+        "onground": false,
+        "speed": 253.23
+    },
+    {
+        "planeID": "738073",
+        "callsign": "ELY3020 ",
+        "reg_country": "Israel",
+        "height": 10668,
+        "onground": false,
+        "speed": 267.13
+    },
+    {
+        "planeID": "c02067",
+        "callsign": "MAL7079 ",
+        "reg_country": "Canada",
+        "height": 11582.4,
+        "onground": false,
+        "speed": 220.72
+    },
+    {
+        "planeID": "ac210e",
+        "callsign": "SWA4800 ",
+        "reg_country": "United States",
+        "height": 11582.4,
+        "onground": false,
+        "speed": 219.18
+    },
+    {
+        "planeID": "c02023",
+        "callsign": "MAL7062 ",
+        "reg_country": "Canada",
+        "height": 5600.7,
+        "onground": false,
+        "speed": 218.06
+    },
+    {
+        "planeID": "c02039",
+        "callsign": "MAL7050 ",
+        "reg_country": "Canada",
+        "height": null,
+        "onground": true,
+        "speed": 4.89
+    },
+    {
+        "planeID": "a78fcf",
+        "callsign": "ASA2627 ",
+        "reg_country": "United States",
+        "height": 11582.4,
+        "onground": false,
+        "speed": 219.2
+    },
+    {
+        "planeID": "c1ea3e",
+        "callsign": "ES251   ",
+        "reg_country": "Canada",
+        "height": null,
+        "onground": true,
+        "speed": 19.03
+    },
+    {
+        "planeID": "c1ea42",
+        "callsign": "SEC205  ",
+        "reg_country": "Canada",
+        "height": null,
+        "onground": true,
+        "speed": 0.06
+    },
+    {
+        "planeID": "c1ea44",
+        "callsign": "ETOW875 ",
+        "reg_country": "Canada",
+        "height": null,
+        "onground": true,
+        "speed": 5.4
+    },
+    {
+        "planeID": "ab5b66",
+        "callsign": "SWA2614 ",
+        "reg_country": "United States",
+        "height": 11277.6,
+        "onground": false,
+        "speed": 251.82
+    },
+    {
+        "planeID": "c1ea37",
+        "callsign": "UTOW515 ",
+        "reg_country": "Canada",
+        "height": null,
+        "onground": true,
+        "speed": 5.14
+    },
+    {
+        "planeID": "a9b41d",
+        "callsign": "N724TM  ",
+        "reg_country": "United States",
+        "height": 617.22,
+        "onground": false,
+        "speed": 46.33
+    },
+    {
+        "planeID": "c0211f",
+        "callsign": "MAL7051 ",
+        "reg_country": "Canada",
+        "height": 10972.8,
+        "onground": false,
+        "speed": 217.18
+    },
+    {
+        "planeID": "c0478e",
+        "callsign": "NTA202  ",
+        "reg_country": "Canada",
+        "height": 7924.8,
+        "onground": false,
+        "speed": 145.55
+    },
+    {
+        "planeID": "a96412",
+        "callsign": "GTI8609 ",
+        "reg_country": "United States",
+        "height": 10058.4,
+        "onground": false,
+        "speed": 243.79
+    },
+    {
+        "planeID": "ad79e8",
+        "callsign": "ASA214  ",
+        "reg_country": "United States",
+        "height": 10058.4,
+        "onground": false,
+        "speed": 257.54
+    },
+    {
+        "planeID": "c07b8c",
+        "callsign": "WJA133  ",
+        "reg_country": "Canada",
+        "height": 8260.08,
+        "onground": false,
+        "speed": 213.51
+    },
+    {
+        "planeID": "344344",
+        "callsign": "IBE03HT ",
+        "reg_country": "Spain",
+        "height": 11277.6,
+        "onground": false,
+        "speed": 266.65
+    },
+    {
+        "planeID": "7380ca",
+        "callsign": "ELY005  ",
+        "reg_country": "Israel",
+        "height": 10972.8,
+        "onground": false,
+        "speed": 257.55
+    },
+    {
+        "planeID": "0d130d",
+        "callsign": "XACHG   ",
+        "reg_country": "Mexico",
+        "height": 13716,
+        "onground": false,
+        "speed": 281.16
+    },
+    {
+        "planeID": "c07b09",
+        "callsign": "ACA1104 ",
+        "reg_country": "Canada",
+        "height": null,
+        "onground": true,
+        "speed": 0
+    },
+    {
+        "planeID": "c012aa",
+        "callsign": "ACA314  ",
+        "reg_country": "Canada",
+        "height": 10668,
+        "onground": false,
+        "speed": 229.38
+    },
+    {
+        "planeID": "a81006",
+        "callsign": "UAL1745 ",
+        "reg_country": "United States",
+        "height": 10058.4,
+        "onground": false,
+        "speed": 252.07
+    },
+    {
+        "planeID": "a5731c",
+        "callsign": "N450LF  ",
+        "reg_country": "United States",
+        "height": 678.18,
+        "onground": false,
+        "speed": 2.57
+    },
+    {
+        "planeID": "a0d2a9",
+        "callsign": "N152LT  ",
+        "reg_country": "United States",
+        "height": 152.4,
+        "onground": false,
+        "speed": 30.35
+    },
+    {
+        "planeID": "4bb1a2",
+        "callsign": "THY181  ",
+        "reg_country": "Turkey",
+        "height": 10972.8,
+        "onground": false,
+        "speed": 240.5
+    },
+    {
+        "planeID": "a6e361",
+        "callsign": "DAL448  ",
+        "reg_country": "United States",
+        "height": 10035.54,
+        "onground": false,
+        "speed": 258.53
+    },
+    {
+        "planeID": "4bb0f2",
+        "callsign": "THY8JK  ",
+        "reg_country": "Turkey",
+        "height": 11887.2,
+        "onground": false,
+        "speed": 256.26
+    },
+    {
+        "planeID": "aa1b0e",
+        "callsign": "N750LL  ",
+        "reg_country": "United States",
+        "height": 1813.56,
+        "onground": false,
+        "speed": 128.08
+    },
+    {
+        "planeID": "c07fb0",
+        "callsign": "WJA674  ",
+        "reg_country": "Canada",
+        "height": 10858.5,
+        "onground": false,
+        "speed": 235.62
+    },
+    {
+        "planeID": "c07fb8",
+        "callsign": "WJA430  ",
+        "reg_country": "Canada",
+        "height": 11277.6,
+        "onground": false,
+        "speed": 250.72
+    },
+    {
+        "planeID": "a63df3",
+        "callsign": "DAL1114 ",
+        "reg_country": "United States",
+        "height": 10668,
+        "onground": false,
+        "speed": 262.02
+    },
+    {
+        "planeID": "4bb18a",
+        "callsign": "THY5YR  ",
+        "reg_country": "Turkey",
+        "height": 11277.6,
+        "onground": false,
+        "speed": 265.33
+    },
+    {
+        "planeID": "4067a3",
+        "callsign": "DHK368  ",
+        "reg_country": "United Kingdom",
+        "height": 10972.8,
+        "onground": false,
+        "speed": 223.62
+    },
+    {
+        "planeID": "ab4eeb",
+        "callsign": "DAL810  ",
+        "reg_country": "United States",
+        "height": 10058.4,
+        "onground": false,
+        "speed": 258.36
+    },
+    {
+        "planeID": "a8cf3a",
+        "callsign": "N667LF  ",
+        "reg_country": "United States",
+        "height": 1531.62,
+        "onground": false,
+        "speed": 105.87
+    },
+    {
+        "planeID": "c01401",
+        "callsign": "ACA1038 ",
+        "reg_country": "Canada",
+        "height": 198.12,
+        "onground": true,
+        "speed": 0
+    },
+    {
+        "planeID": "c012f2",
+        "callsign": "WEN3750 ",
+        "reg_country": "Canada",
+        "height": null,
+        "onground": true,
+        "speed": 0.9
+    },
+    {
+        "planeID": "a4b420",
+        "callsign": "ASA343  ",
+        "reg_country": "United States",
+        "height": 10363.2,
+        "onground": false,
+        "speed": 258.5
+    },
+    {
+        "planeID": "a6e131",
+        "callsign": "AAL2886 ",
+        "reg_country": "United States",
+        "height": 10058.4,
+        "onground": false,
+        "speed": 264.05
+    },
+    {
+        "planeID": "740821",
+        "callsign": "RJA292  ",
+        "reg_country": "Jordan",
+        "height": 11887.2,
+        "onground": false,
+        "speed": 258.4
+    },
+    {
+        "planeID": "a76f48",
+        "callsign": "UAL2278 ",
+        "reg_country": "United States",
+        "height": 10668,
+        "onground": false,
+        "speed": 254.53
+    },
+    {
+        "planeID": "781f4c",
+        "callsign": "CSG2686 ",
+        "reg_country": "China",
+        "height": 9761.22,
+        "onground": false,
+        "speed": 231.58
+    },
+    {
+        "planeID": "ab4c15",
+        "callsign": "AAL154R ",
+        "reg_country": "United States",
+        "height": 1722.12,
+        "onground": false,
+        "speed": 145.12
+    },
+    {
+        "planeID": "c07eda",
+        "callsign": "WJA618  ",
+        "reg_country": "Canada",
+        "height": 11277.6,
+        "onground": false,
+        "speed": 239.52
+    },
+    {
+        "planeID": "780cb7",
+        "callsign": "CCA982  ",
+        "reg_country": "China",
+        "height": 9144,
+        "onground": false,
+        "speed": 256.14
+    },
+    {
+        "planeID": "c010f6",
+        "callsign": "ACA159  ",
+        "reg_country": "Canada",
+        "height": 9745.98,
+        "onground": false,
+        "speed": 228.58
+    },
+    {
+        "planeID": "899087",
+        "callsign": "EVA003  ",
+        "reg_country": "Taiwan",
+        "height": 10363.2,
+        "onground": false,
+        "speed": 230.74
+    },
+    {
+        "planeID": "a32fa7",
+        "callsign": "AAL1305 ",
+        "reg_country": "United States",
+        "height": null,
+        "onground": true,
+        "speed": 0
+    },
+    {
+        "planeID": "c1e99b",
+        "callsign": "ST30    ",
+        "reg_country": "Canada",
+        "height": null,
+        "onground": true,
+        "speed": 5.4
+    },
+    {
+        "planeID": "89902f",
+        "callsign": "EVA031  ",
+        "reg_country": "Taiwan",
+        "height": 9144,
+        "onground": false,
+        "speed": 250.03
+    },
+    {
+        "planeID": "c1e963",
+        "callsign": "ESC169  ",
+        "reg_country": "Canada",
+        "height": null,
+        "onground": true,
+        "speed": 1.54
+    },
+    {
+        "planeID": "c1e962",
+        "callsign": "ESC173  ",
+        "reg_country": "Canada",
+        "height": null,
+        "onground": true,
+        "speed": 5.66
+    },
+    {
+        "planeID": "406ec7",
+        "callsign": "BAW4E   ",
+        "reg_country": "United Kingdom",
+        "height": 11277.6,
+        "onground": false,
+        "speed": 248.48
+    },
+    {
+        "planeID": "c07982",
+        "callsign": "CJT573  ",
+        "reg_country": "Canada",
+        "height": 10363.2,
+        "onground": false,
+        "speed": 222.45
+    },
+    {
+        "planeID": "c0797b",
+        "callsign": "ACA328  ",
+        "reg_country": "Canada",
+        "height": 1592.58,
+        "onground": false,
+        "speed": 77.12
+    },
+    {
+        "planeID": "a02681",
+        "callsign": "DAL2895 ",
+        "reg_country": "United States",
+        "height": null,
+        "onground": true,
+        "speed": 0
+    },
+    {
+        "planeID": "406f7c",
+        "callsign": "BAW186  ",
+        "reg_country": "United Kingdom",
+        "height": 11887.2,
+        "onground": false,
+        "speed": 263.47
+    },
+    {
+        "planeID": "a398bc",
+        "callsign": "JBU1192 ",
+        "reg_country": "United States",
+        "height": null,
+        "onground": true,
+        "speed": 0
+    },
+    {
+        "planeID": "ac6622",
+        "callsign": "SWA3131 ",
+        "reg_country": "United States",
+        "height": 11277.6,
+        "onground": false,
+        "speed": 260.05
+    },
+    {
+        "planeID": "780231",
+        "callsign": "CPA3509 ",
+        "reg_country": "China",
+        "height": 1280.16,
+        "onground": false,
+        "speed": 117.56
+    },
+    {
+        "planeID": "06a3b6",
+        "callsign": "QTR8067 ",
+        "reg_country": "Qatar",
+        "height": 9448.8,
+        "onground": false,
+        "speed": 269.36
+    },
+    {
+        "planeID": "a1ddbb",
+        "callsign": "JBU1524 ",
+        "reg_country": "United States",
+        "height": 10660.38,
+        "onground": false,
+        "speed": 250.67
+    },
+    {
+        "planeID": "c05416",
+        "callsign": "WJA568  ",
+        "reg_country": "Canada",
+        "height": 6088.38,
+        "onground": false,
+        "speed": 196.74
+    },
+    {
+        "planeID": "c06709",
+        "callsign": "ACA725  ",
+        "reg_country": "Canada",
+        "height": null,
+        "onground": true,
+        "speed": 0
+    },
+    {
+        "planeID": "a146a2",
+        "callsign": "XCN81   ",
+        "reg_country": "United States",
+        "height": 4846.32,
+        "onground": false,
+        "speed": 133.24
+    },
+    {
+        "planeID": "c0671b",
+        "callsign": "ACA312  ",
+        "reg_country": "Canada",
+        "height": null,
+        "onground": true,
+        "speed": 0.06
+    },
+    {
+        "planeID": "899133",
+        "callsign": "EVA633  ",
+        "reg_country": "Taiwan",
+        "height": 10363.2,
+        "onground": false,
+        "speed": 232.1
+    },
+    {
+        "planeID": "a120fe",
+        "callsign": "DAL310  ",
+        "reg_country": "United States",
+        "height": 11285.22,
+        "onground": false,
+        "speed": 253.48
+    },
+    {
+        "planeID": "c07749",
+        "callsign": "AKN236M ",
+        "reg_country": "Canada",
+        "height": 8534.4,
+        "onground": false,
+        "speed": 159.02
+    },
+    {
+        "planeID": "aba800",
+        "callsign": "GTI754  ",
+        "reg_country": "United States",
+        "height": 10972.8,
+        "onground": false,
+        "speed": 233.58
+    },
+    {
+        "planeID": "c07712",
+        "callsign": "CJT583  ",
+        "reg_country": "Canada",
+        "height": 11582.4,
+        "onground": false,
+        "speed": 219.28
+    },
+    {
+        "planeID": "aa7ec3",
+        "callsign": "UAL796  ",
+        "reg_country": "United States",
+        "height": 9448.8,
+        "onground": false,
+        "speed": 249.89
+    },
+    {
+        "planeID": "aa7ec2",
+        "callsign": "UAL1802 ",
+        "reg_country": "United States",
+        "height": 7879.08,
+        "onground": false,
+        "speed": 265.22
+    },
+    {
+        "planeID": "c00e6c",
+        "callsign": "FLE628  ",
+        "reg_country": "Canada",
+        "height": null,
+        "onground": true,
+        "speed": 3.6
+    },
+    {
+        "planeID": "a8c415",
+        "callsign": "N664LF  ",
+        "reg_country": "United States",
+        "height": 5113.02,
+        "onground": false,
+        "speed": 136.42
+    },
+    {
+        "planeID": "ab448d",
+        "callsign": "N825MM  ",
+        "reg_country": "United States",
+        "height": 716.28,
+        "onground": false,
+        "speed": 50.17
+    },
+    {
+        "planeID": "8990e4",
+        "callsign": "EVA055  ",
+        "reg_country": "Taiwan",
+        "height": 9144,
+        "onground": false,
+        "speed": 238.36
+    },
+    {
+        "planeID": "c1e659",
+        "callsign": "OPS20   ",
+        "reg_country": "Canada",
+        "height": null,
+        "onground": true,
+        "speed": 0.06
+    },
+    {
+        "planeID": "71c226",
+        "callsign": "KAL273  ",
+        "reg_country": "Republic of Korea",
+        "height": 10668,
+        "onground": false,
+        "speed": 266.08
+    },
+    {
+        "planeID": "ac9a83",
+        "callsign": "N911BH  ",
+        "reg_country": "United States",
+        "height": 434.34,
+        "onground": false,
+        "speed": 59.27
+    },
+    {
+        "planeID": "a67bc8",
+        "callsign": "DAL473  ",
+        "reg_country": "United States",
+        "height": 9288.78,
+        "onground": false,
+        "speed": 254.36
+    },
+    {
+        "planeID": "a037b2",
+        "callsign": "DAL2866 ",
+        "reg_country": "United States",
+        "height": null,
+        "onground": true,
+        "speed": 0.06
+    },
+    {
+        "planeID": "c050c4",
+        "callsign": "ROU1998 ",
+        "reg_country": "Canada",
+        "height": 10668,
+        "onground": false,
+        "speed": 257.79
+    },
+    {
+        "planeID": "a4f59c",
+        "callsign": "AAL3252 ",
+        "reg_country": "United States",
+        "height": 3185.16,
+        "onground": false,
+        "speed": 133.76
+    },
+    {
+        "planeID": "adc238",
+        "callsign": "JBU134  ",
+        "reg_country": "United States",
+        "height": 10058.4,
+        "onground": false,
+        "speed": 256.69
+    },
+    {
+        "planeID": "c1e6d0",
+        "callsign": "WLD67   ",
+        "reg_country": "Canada",
+        "height": null,
+        "onground": true,
+        "speed": 10.29
+    },
+    {
+        "planeID": "a7a532",
+        "callsign": "DAL696  ",
+        "reg_country": "United States",
+        "height": 10050.78,
+        "onground": false,
+        "speed": 247.36
+    },
+    {
+        "planeID": "780654",
+        "callsign": "CSG2543 ",
+        "reg_country": "China",
+        "height": 10058.4,
+        "onground": false,
+        "speed": 258.87
+    },
+    {
+        "planeID": "c04453",
+        "callsign": "WJA748  ",
+        "reg_country": "Canada",
+        "height": 11277.6,
+        "onground": false,
+        "speed": 248.47
+    },
+    {
+        "planeID": "a1cf6b",
+        "callsign": "JBU1190 ",
+        "reg_country": "United States",
+        "height": 10668,
+        "onground": false,
+        "speed": 258.32
+    },
+    {
+        "planeID": "a123bf",
+        "callsign": "UAL572  ",
+        "reg_country": "United States",
+        "height": 10668,
+        "onground": false,
+        "speed": 250.21
+    },
+    {
+        "planeID": "ac9f52",
+        "callsign": "AAL1632 ",
+        "reg_country": "United States",
+        "height": 1310.64,
+        "onground": false,
+        "speed": 69.45
+    },
+    {
+        "planeID": "c04599",
+        "callsign": "CJT588  ",
+        "reg_country": "Canada",
+        "height": null,
+        "onground": true,
+        "speed": 0.06
+    },
+    {
+        "planeID": "c03261",
+        "callsign": "ACA7263 ",
+        "reg_country": "Canada",
+        "height": 9753.6,
+        "onground": false,
+        "speed": 228.46
+    },
+    {
+        "planeID": "a5f4d2",
+        "callsign": "MAO2    ",
+        "reg_country": "United States",
+        "height": 723.9,
+        "onground": false,
+        "speed": 61.46
+    },
+    {
+        "planeID": "789243",
+        "callsign": "CPA844  ",
+        "reg_country": "China",
+        "height": 11887.2,
+        "onground": false,
+        "speed": 270.11
+    },
+    {
+        "planeID": "789246",
+        "callsign": "CPA843  ",
+        "reg_country": "China",
+        "height": 10058.4,
+        "onground": false,
+        "speed": 266.17
+    },
+    {
+        "planeID": "a6bba3",
+        "callsign": "ASA280  ",
+        "reg_country": "United States",
+        "height": 11887.2,
+        "onground": false,
+        "speed": 256.6
+    },
+    {
+        "planeID": "c040e8",
+        "callsign": "WJA731  ",
+        "reg_country": "Canada",
+        "height": 2750.82,
+        "onground": false,
+        "speed": 145.22
+    },
+    {
+        "planeID": "06a1d3",
+        "callsign": "QQE914  ",
+        "reg_country": "Qatar",
+        "height": 13716,
+        "onground": false,
+        "speed": 273.82
+    },
+    {
+        "planeID": "c066fb",
+        "callsign": "AC228   ",
+        "reg_country": "Canada",
+        "height": 4274.82,
+        "onground": false,
+        "speed": 195.98
+    },
+    {
+        "planeID": "c1e9fe",
+        "callsign": "TK192   ",
+        "reg_country": "Canada",
+        "height": null,
+        "onground": true,
+        "speed": 4.63
+    },
+    {
+        "planeID": "c1e9fd",
+        "callsign": "ST17    ",
+        "reg_country": "Canada",
+        "height": null,
+        "onground": true,
+        "speed": 5.4
+    },
+    {
+        "planeID": "407af1",
+        "callsign": "BAW18A  ",
+        "reg_country": "United Kingdom",
+        "height": 11277.6,
+        "onground": false,
+        "speed": 275.43
+    },
+    {
+        "planeID": "4cc52c",
+        "callsign": "ICE694  ",
+        "reg_country": "Iceland",
+        "height": 11277.6,
+        "onground": false,
+        "speed": 245.61
+    },
+    {
+        "planeID": "c1e9ac",
+        "callsign": "ST68    ",
+        "reg_country": "Canada",
+        "height": null,
+        "onground": true,
+        "speed": 2.31
+    },
+    {
+        "planeID": "c066f4",
+        "callsign": "ACA298  ",
+        "reg_country": "Canada",
+        "height": 10668,
+        "onground": false,
+        "speed": 251.62
+    },
+    {
+        "planeID": "4cc57b",
+        "callsign": "ICE88E  ",
+        "reg_country": "Iceland",
+        "height": 11277.6,
+        "onground": false,
+        "speed": 255.68
+    },
+    {
+        "planeID": "adc5ff",
+        "callsign": "JBU604  ",
+        "reg_country": "United States",
+        "height": 10058.4,
+        "onground": false,
+        "speed": 253.13
+    },
+    {
+        "planeID": "c04394",
+        "callsign": "CJT574  ",
+        "reg_country": "Canada",
+        "height": 11910.06,
+        "onground": false,
+        "speed": 259.55
+    },
+    {
+        "planeID": "a9e935",
+        "callsign": "N738EP  ",
+        "reg_country": "United States",
+        "height": 1341.12,
+        "onground": false,
+        "speed": 45.05
+    },
+    {
+        "planeID": "a9d63b",
+        "callsign": "ASA1371 ",
+        "reg_country": "United States",
+        "height": 10668,
+        "onground": false,
+        "speed": 262.58
+    },
+    {
+        "planeID": "06a0e7",
+        "callsign": "QTR706  ",
+        "reg_country": "Qatar",
+        "height": 11277.6,
+        "onground": false,
+        "speed": 268.47
+    },
+    {
+        "planeID": "06a0df",
+        "callsign": "QTR8102 ",
+        "reg_country": "Qatar",
+        "height": 11277.6,
+        "onground": false,
+        "speed": 259.7
+    },
+    {
+        "planeID": "a495f8",
+        "callsign": "N395GF  ",
+        "reg_country": "United States",
+        "height": 5097.78,
+        "onground": false,
+        "speed": 153.94
+    },
+    {
+        "planeID": "a7a8ed",
+        "callsign": "DAL953  ",
+        "reg_country": "United States",
+        "height": 1120.14,
+        "onground": false,
+        "speed": 122.46
+    },
+    {
+        "planeID": "aa8c0e",
+        "callsign": "N779SH  ",
+        "reg_country": "United States",
+        "height": 541.02,
+        "onground": false,
+        "speed": 47.16
+    },
+    {
+        "planeID": "ad3c1f",
+        "callsign": "ASA1490 ",
+        "reg_country": "United States",
+        "height": 10972.8,
+        "onground": false,
+        "speed": 217.56
+    },
+    {
+        "planeID": "3c65ae",
+        "callsign": "DLH459  ",
+        "reg_country": "Germany",
+        "height": 11277.6,
+        "onground": false,
+        "speed": 254.5
+    },
+    {
+        "planeID": "a7878f",
+        "callsign": "ASA2619 ",
+        "reg_country": "United States",
+        "height": 11887.2,
+        "onground": false,
+        "speed": 265.17
+    },
+    {
+        "planeID": "c02ed9",
+        "callsign": "ACA126  ",
+        "reg_country": "Canada",
+        "height": 11879.58,
+        "onground": false,
+        "speed": 269.84
+    },
+    {
+        "planeID": "3c6565",
+        "callsign": "OCN12   ",
+        "reg_country": "Germany",
+        "height": 11277.6,
+        "onground": false,
+        "speed": 234.5
+    },
+    {
+        "planeID": "c08509",
+        "callsign": "ACA65   ",
+        "reg_country": "Canada",
+        "height": 8328.66,
+        "onground": false,
+        "speed": 249.55
+    },
+    {
+        "planeID": "a2e80e",
+        "callsign": "WWF287  ",
+        "reg_country": "United States",
+        "height": 7010.4,
+        "onground": false,
+        "speed": 157.83
+    },
+    {
+        "planeID": "a1c869",
+        "callsign": "N214AL  ",
+        "reg_country": "United States",
+        "height": null,
+        "onground": true,
+        "speed": 0
+    },
+    {
+        "planeID": "c08497",
+        "callsign": "ACA129  ",
+        "reg_country": "Canada",
+        "height": 10355.58,
+        "onground": false,
+        "speed": 212.71
+    },
+    {
+        "planeID": "a58c29",
+        "callsign": "AAL399  ",
+        "reg_country": "United States",
+        "height": 10058.4,
+        "onground": false,
+        "speed": 229.54
+    },
+    {
+        "planeID": "abc4be",
+        "callsign": "SWA3534 ",
+        "reg_country": "United States",
+        "height": 11277.6,
+        "onground": false,
+        "speed": 252.53
+    },
+    {
+        "planeID": "ad4bcb",
+        "callsign": "JBU264  ",
+        "reg_country": "United States",
+        "height": 10668,
+        "onground": false,
+        "speed": 256.29
+    },
+    {
+        "planeID": "0d0cce",
+        "callsign": "VOI7731 ",
+        "reg_country": "Mexico",
+        "height": 2926.08,
+        "onground": false,
+        "speed": 151.35
+    },
+    {
+        "planeID": "a5dc31",
+        "callsign": "THY6045 ",
+        "reg_country": "United States",
+        "height": 10668,
+        "onground": false,
+        "speed": 271.21
+    },
+    {
+        "planeID": "a96f37",
+        "callsign": "GTI346  ",
+        "reg_country": "United States",
+        "height": 9448.8,
+        "onground": false,
+        "speed": 245.66
+    },
+    {
+        "planeID": "a67805",
+        "callsign": "DAL328  ",
+        "reg_country": "United States",
+        "height": 2804.16,
+        "onground": false,
+        "speed": 164.76
+    },
+    {
+        "planeID": "aa4230",
+        "callsign": "GTI8914 ",
+        "reg_country": "United States",
+        "height": 9753.6,
+        "onground": false,
+        "speed": 250.38
+    },
+    {
+        "planeID": "acd0ca",
+        "callsign": "AAL3185 ",
+        "reg_country": "United States",
+        "height": 11277.6,
+        "onground": false,
+        "speed": 263.15
+    },
+    {
+        "planeID": "a3f1c2",
+        "callsign": "UPS208  ",
+        "reg_country": "United States",
+        "height": 10363.2,
+        "onground": false,
+        "speed": 225.92
+    },
+    {
+        "planeID": "a95d42",
+        "callsign": "PRY03   ",
+        "reg_country": "United States",
+        "height": 4244.34,
+        "onground": false,
+        "speed": 74.19
+    },
+    {
+        "planeID": "a35fc2",
+        "callsign": "JBU2322 ",
+        "reg_country": "United States",
+        "height": null,
+        "onground": true,
+        "speed": 0
+    },
+    {
+        "planeID": "a8e1f6",
+        "callsign": "DAL326  ",
+        "reg_country": "United States",
+        "height": 10637.52,
+        "onground": false,
+        "speed": 250.42
+    },
+    {
+        "planeID": "a0b8fb",
+        "callsign": "AAL2379 ",
+        "reg_country": "United States",
+        "height": 3086.1,
+        "onground": false,
+        "speed": 169.54
+    },
+    {
+        "planeID": "a6a347",
+        "callsign": "DAL27   ",
+        "reg_country": "United States",
+        "height": 10972.8,
+        "onground": false,
+        "speed": 234.49
+    },
+    {
+        "planeID": "a95ca4",
+        "callsign": "GTI8985 ",
+        "reg_country": "United States",
+        "height": 12192,
+        "onground": false,
+        "speed": 228.45
+    },
+    {
+        "planeID": "a5cf82",
+        "callsign": "UAL450  ",
+        "reg_country": "United States",
+        "height": 10668,
+        "onground": false,
+        "speed": 244.85
+    },
+    {
+        "planeID": "a69f49",
+        "callsign": "ASA205  ",
+        "reg_country": "United States",
+        "height": 11582.4,
+        "onground": false,
+        "speed": 230.21
+    },
+    {
+        "planeID": "c01ebb",
+        "callsign": "FLE664  ",
+        "reg_country": "Canada",
+        "height": 3870.96,
+        "onground": false,
+        "speed": 174.07
+    },
+    {
+        "planeID": "c073db",
+        "callsign": "WJA1992 ",
+        "reg_country": "Canada",
+        "height": 11887.2,
+        "onground": false,
+        "speed": 259.6
+    },
+    {
+        "planeID": "c060ca",
+        "callsign": "POE410  ",
+        "reg_country": "Canada",
+        "height": 11277.6,
+        "onground": false,
+        "speed": 252.59
+    },
+    {
+        "planeID": "c01f28",
+        "callsign": "FLE636  ",
+        "reg_country": "Canada",
+        "height": 5257.8,
+        "onground": false,
+        "speed": 188.6
+    },
+    {
+        "planeID": "c1e651",
+        "callsign": "OPS24   ",
+        "reg_country": "Canada",
+        "height": null,
+        "onground": true,
+        "speed": 0.06
+    },
+    {
+        "planeID": "aadfae",
+        "callsign": "N80BS   ",
+        "reg_country": "United States",
+        "height": 1196.34,
+        "onground": false,
+        "speed": 81.9
+    },
+    {
+        "planeID": "a8c36d",
+        "callsign": "DAL8882 ",
+        "reg_country": "United States",
+        "height": 12496.8,
+        "onground": false,
+        "speed": 258.28
+    },
+    {
+        "planeID": "ad3fd7",
+        "callsign": "N953AL  ",
+        "reg_country": "United States",
+        "height": 1394.46,
+        "onground": false,
+        "speed": 71.98
+    },
+    {
+        "planeID": "c01cb7",
+        "callsign": "WJA729  ",
+        "reg_country": "Canada",
+        "height": 3642.36,
+        "onground": false,
+        "speed": 151.53
+    },
+    {
+        "planeID": "c01d72",
+        "callsign": "FLE106  ",
+        "reg_country": "Canada",
+        "height": 10668,
+        "onground": false,
+        "speed": 242.22
+    },
+    {
+        "planeID": "ab5365",
+        "callsign": "DAL960  ",
+        "reg_country": "United States",
+        "height": 10058.4,
+        "onground": false,
+        "speed": 264.91
+    },
+    {
+        "planeID": "ac733b",
+        "callsign": "DAL409  ",
+        "reg_country": "United States",
+        "height": 10058.4,
+        "onground": false,
+        "speed": 265.07
+    },
+    {
+        "planeID": "c01d16",
+        "callsign": "CJT571  ",
+        "reg_country": "Canada",
+        "height": 10972.8,
+        "onground": false,
+        "speed": 216.84
+    },
+    {
+        "planeID": "a08e1e",
+        "callsign": "DAL2113 ",
+        "reg_country": "United States",
+        "height": null,
+        "onground": true,
+        "speed": 0.64
+    },
+    {
+        "planeID": "4851b1",
+        "callsign": "KLM686  ",
+        "reg_country": "Kingdom of the Netherlands",
+        "height": 10050.78,
+        "onground": false,
+        "speed": 275.59
+    },
+    {
+        "planeID": "a0de84",
+        "callsign": "N155U   ",
+        "reg_country": "United States",
+        "height": 1287.78,
+        "onground": false,
+        "speed": 29.88
+    },
+    {
+        "planeID": "aa7c64",
+        "callsign": "JBU198  ",
+        "reg_country": "United States",
+        "height": null,
+        "onground": true,
+        "speed": 10.8
+    },
+    {
+        "planeID": "a535c2",
+        "callsign": "ASA314  ",
+        "reg_country": "United States",
+        "height": 10668,
+        "onground": false,
+        "speed": 254.3
+    },
+    {
+        "planeID": "ab79d3",
+        "callsign": "ASA367  ",
+        "reg_country": "United States",
+        "height": 11582.4,
+        "onground": false,
+        "speed": 263.28
+    },
+    {
+        "planeID": "c01e96",
+        "callsign": "CJT569  ",
+        "reg_country": "Canada",
+        "height": 10363.2,
+        "onground": false,
+        "speed": 218.87
+    },
+    {
+        "planeID": "a2b151",
+        "callsign": "UAL747  ",
+        "reg_country": "United States",
+        "height": 10668,
+        "onground": false,
+        "speed": 256.08
+    },
+    {
+        "planeID": "a2b12e",
+        "callsign": "UAL1552 ",
+        "reg_country": "United States",
+        "height": 10668,
+        "onground": false,
+        "speed": 248.8
+    },
+    {
+        "planeID": "c01e10",
+        "callsign": "JZA126  ",
+        "reg_country": "Canada",
+        "height": 1508.76,
+        "onground": false,
+        "speed": 90.04
+    },
+    {
+        "planeID": "c01e1a",
+        "callsign": "FLE602  ",
+        "reg_country": "Canada",
+        "height": null,
+        "onground": true,
+        "speed": 0.64
+    },
+    {
+        "planeID": "a9077b",
+        "callsign": "FFT4186 ",
+        "reg_country": "United States",
+        "height": 5242.56,
+        "onground": false,
+        "speed": 215.24
+    },
+    {
+        "planeID": "a349be",
+        "callsign": "JBU248  ",
+        "reg_country": "United States",
+        "height": 10668,
+        "onground": false,
+        "speed": 258.06
+    },
+    {
+        "planeID": "76cce3",
+        "callsign": "SIA22   ",
+        "reg_country": "Singapore",
+        "height": 12496.8,
+        "onground": false,
+        "speed": 275.13
+    },
+    {
+        "planeID": "c05f1f",
+        "callsign": "CGKAO   ",
+        "reg_country": "Canada",
+        "height": 861.06,
+        "onground": false,
+        "speed": 88.4
+    },
+    {
+        "planeID": "869232",
+        "callsign": "ANA159  ",
+        "reg_country": "Japan",
+        "height": 8534.4,
+        "onground": false,
+        "speed": 252.08
+    },
+    {
+        "planeID": "c04aed",
+        "callsign": "CJT1906 ",
+        "reg_country": "Canada",
+        "height": 1943.1,
+        "onground": false,
+        "speed": 139.83
+    },
+    {
+        "planeID": "c04adc",
+        "callsign": "CJT622  ",
+        "reg_country": "Canada",
+        "height": 11887.2,
+        "onground": false,
+        "speed": 248.1
+    },
+    {
+        "planeID": "ac181d",
+        "callsign": "DAL395  ",
+        "reg_country": "United States",
+        "height": 10058.4,
+        "onground": false,
+        "speed": 259.9
+    },
+    {
+        "planeID": "a97c18",
+        "callsign": "ASA22   ",
+        "reg_country": "United States",
+        "height": 10058.4,
+        "onground": false,
+        "speed": 258.73
+    },
+    {
+        "planeID": "8966f0",
+        "callsign": "UAE9394 ",
+        "reg_country": "United Arab Emirates",
+        "height": 9448.8,
+        "onground": false,
+        "speed": 269.96
+    },
+    {
+        "planeID": "a18284",
+        "callsign": "DAL416  ",
+        "reg_country": "United States",
+        "height": 10668,
+        "onground": false,
+        "speed": 238.65
+    },
+    {
+        "planeID": "a4dbd3",
+        "callsign": "N412CU  ",
+        "reg_country": "United States",
+        "height": 4892.04,
+        "onground": false,
+        "speed": 114.86
+    },
+    {
+        "planeID": "a6981a",
+        "callsign": "DAL452  ",
+        "reg_country": "United States",
+        "height": 10058.4,
+        "onground": false,
+        "speed": 254.88
+    },
+    {
+        "planeID": "ad0074",
+        "callsign": "JBU778  ",
+        "reg_country": "United States",
+        "height": 10660.38,
+        "onground": false,
+        "speed": 247.38
+    },
+    {
+        "planeID": "407799",
+        "callsign": "BAW3GB  ",
+        "reg_country": "United Kingdom",
+        "height": 11887.2,
+        "onground": false,
+        "speed": 250.83
+    },
+    {
+        "planeID": "a204f3",
+        "callsign": "N2291H  ",
+        "reg_country": "United States",
+        "height": 2423.16,
+        "onground": false,
+        "speed": 48.37
+    },
+    {
+        "planeID": "c05eb1",
+        "callsign": "ACA153  ",
+        "reg_country": "Canada",
+        "height": 9753.6,
+        "onground": false,
+        "speed": 213.38
+    },
+    {
+        "planeID": "c05eb6",
+        "callsign": "ACA156  ",
+        "reg_country": "Canada",
+        "height": null,
+        "onground": true,
+        "speed": 4.12
+    },
+    {
+        "planeID": "c05d94",
+        "callsign": "PRO4215M",
+        "reg_country": "Canada",
+        "height": 6080.76,
+        "onground": false,
+        "speed": 112.54
+    },
+    {
+        "planeID": "c014e0",
+        "callsign": "ACA364  ",
+        "reg_country": "Canada",
+        "height": 10668,
+        "onground": false,
+        "speed": 249.65
+    },
+    {
+        "planeID": "c05bd5",
+        "callsign": "ACA183  ",
+        "reg_country": "Canada",
+        "height": 1813.56,
+        "onground": false,
+        "speed": 135.92
+    },
+    {
+        "planeID": "ac01d3",
+        "callsign": "DAL2079 ",
+        "reg_country": "United States",
+        "height": 11277.6,
+        "onground": false,
+        "speed": 244.9
+    },
+    {
+        "planeID": "aa97ff",
+        "callsign": "N782AL  ",
+        "reg_country": "United States",
+        "height": 6934.2,
+        "onground": false,
+        "speed": 123.06
+    },
+    {
+        "planeID": "a08663",
+        "callsign": "AAL2003 ",
+        "reg_country": "United States",
+        "height": null,
+        "onground": true,
+        "speed": 4.37
+    },
+    {
+        "planeID": "a38fa4",
+        "callsign": "JBU1596 ",
+        "reg_country": "United States",
+        "height": null,
+        "onground": true,
+        "speed": 0
+    },
+    {
+        "planeID": "a2acbe",
+        "callsign": "N2711R  ",
+        "reg_country": "United States",
+        "height": 304.8,
+        "onground": false,
+        "speed": 40.14
+    },
+    {
+        "planeID": "a9a901",
+        "callsign": "DAL507  ",
+        "reg_country": "United States",
+        "height": 11887.2,
+        "onground": false,
+        "speed": 261.51
+    },
+    {
+        "planeID": "c01505",
+        "callsign": "ACA313  ",
+        "reg_country": "Canada",
+        "height": null,
+        "onground": true,
+        "speed": 6.43
+    },
+    {
+        "planeID": "a4ffb7",
+        "callsign": "DAL108  ",
+        "reg_country": "United States",
+        "height": 11277.6,
+        "onground": false,
+        "speed": 262.61
+    },
+    {
+        "planeID": "a085ed",
+        "callsign": "ABX3187 ",
+        "reg_country": "United States",
+        "height": 10668,
+        "onground": false,
+        "speed": 267.02
+    },
+    {
+        "planeID": "c05e72",
+        "callsign": "ROU1902 ",
+        "reg_country": "Canada",
+        "height": 10058.4,
+        "onground": false,
+        "speed": 244.17
+    },
+    {
+        "planeID": "a12b74",
+        "callsign": "BOE123  ",
+        "reg_country": "United States",
+        "height": null,
+        "onground": true,
+        "speed": 0
+    },
+    {
+        "planeID": "ad7e6f",
+        "callsign": "JBU16   ",
+        "reg_country": "United States",
+        "height": 10660.38,
+        "onground": false,
+        "speed": 250.84
+    },
+    {
+        "planeID": "a12ac0",
+        "callsign": "UAL2017 ",
+        "reg_country": "United States",
+        "height": 10058.4,
+        "onground": false,
+        "speed": 252.89
+    },
+    {
+        "planeID": "a74e75",
+        "callsign": "N570AM  ",
+        "reg_country": "United States",
+        "height": 2834.64,
+        "onground": false,
+        "speed": 140.78
+    },
+    {
+        "planeID": "a12ae9",
+        "callsign": "UAL1652 ",
+        "reg_country": "United States",
+        "height": 9448.8,
+        "onground": false,
+        "speed": 255.09
+    },
+    {
+        "planeID": "c00926",
+        "callsign": "WJA736  ",
+        "reg_country": "Canada",
+        "height": 10668,
+        "onground": false,
+        "speed": 258.31
+    },
+    {
+        "planeID": "a7e54f",
+        "callsign": "DAL2038 ",
+        "reg_country": "United States",
+        "height": 10050.78,
+        "onground": false,
+        "speed": 261.71
+    },
+    {
+        "planeID": "71bc19",
+        "callsign": "AIH248  ",
+        "reg_country": "Republic of Korea",
+        "height": 388.62,
+        "onground": false,
+        "speed": 83.34
+    },
+    {
+        "planeID": "a3ad14",
+        "callsign": "N336LA  ",
+        "reg_country": "United States",
+        "height": 2468.88,
+        "onground": false,
+        "speed": 67.75
+    },
+    {
+        "planeID": "a817b1",
+        "callsign": "QXE2192 ",
+        "reg_country": "United States",
+        "height": 10972.8,
+        "onground": false,
+        "speed": 205.47
+    },
+    {
+        "planeID": "a4493d",
+        "callsign": "UAL2379 ",
+        "reg_country": "United States",
+        "height": 541.02,
+        "onground": false,
+        "speed": 103.4
+    },
+    {
+        "planeID": "a0b674",
+        "callsign": "N145NE  ",
+        "reg_country": "United States",
+        "height": 259.08,
+        "onground": false,
+        "speed": 53.18
+    },
+    {
+        "planeID": "a0fcd4",
+        "callsign": "AAL1826 ",
+        "reg_country": "United States",
+        "height": 10660.38,
+        "onground": false,
+        "speed": 261.11
+    },
+    {
+        "planeID": "ad4afb",
+        "callsign": "ASA371  ",
+        "reg_country": "United States",
+        "height": 10668,
+        "onground": false,
+        "speed": 262.92
+    },
+    {
+        "planeID": "0d0dc4",
+        "callsign": "VTM300  ",
+        "reg_country": "Mexico",
+        "height": 281.94,
+        "onground": false,
+        "speed": 67.32
+    },
+    {
+        "planeID": "c0807f",
+        "callsign": "WEN3291 ",
+        "reg_country": "Canada",
+        "height": 7315.2,
+        "onground": false,
+        "speed": 179.54
+    },
+    {
+        "planeID": "71be26",
+        "callsign": "AAR223  ",
+        "reg_country": "Republic of Korea",
+        "height": 10363.2,
+        "onground": false,
+        "speed": 251.03
+    },
+    {
+        "planeID": "c04fff",
+        "callsign": "ROU2086 ",
+        "reg_country": "Canada",
+        "height": 3063.24,
+        "onground": false,
+        "speed": 153.94
+    },
+    {
+        "planeID": "c03cf4",
+        "callsign": "ACA154  ",
+        "reg_country": "Canada",
+        "height": 10058.4,
+        "onground": false,
+        "speed": 249.88
+    },
+    {
+        "planeID": "a449a8",
+        "callsign": "UAL2467 ",
+        "reg_country": "United States",
+        "height": 10668,
+        "onground": false,
+        "speed": 259.14
+    },
+    {
+        "planeID": "a6c358",
+        "callsign": "DAL652  ",
+        "reg_country": "United States",
+        "height": 2065.02,
+        "onground": false,
+        "speed": 153.91
+    },
+    {
+        "planeID": "a1d2dc",
+        "callsign": "JBU2120 ",
+        "reg_country": "United States",
+        "height": 10668,
+        "onground": false,
+        "speed": 251.59
+    },
+    {
+        "planeID": "39d2b2",
+        "callsign": "AFR029  ",
+        "reg_country": "France",
+        "height": 11887.2,
+        "onground": false,
+        "speed": 259.93
+    },
+    {
+        "planeID": "a3271e",
+        "callsign": "DAL462  ",
+        "reg_country": "United States",
+        "height": null,
+        "onground": true,
+        "speed": 0
+    },
+    {
+        "planeID": "39d2a0",
+        "callsign": "AFR11E  ",
+        "reg_country": "France",
+        "height": 12496.8,
+        "onground": false,
+        "speed": 274.87
+    },
+    {
+        "planeID": "a67452",
+        "callsign": "DAL705  ",
+        "reg_country": "United States",
+        "height": 10660.38,
+        "onground": false,
+        "speed": 252.68
+    },
+    {
+        "planeID": "a6745a",
+        "callsign": "N515DN  ",
+        "reg_country": "United States",
+        "height": null,
+        "onground": true,
+        "speed": 0.06
+    },
+    {
+        "planeID": "c0193b",
+        "callsign": "ACA128  ",
+        "reg_country": "Canada",
+        "height": 10363.2,
+        "onground": false,
+        "speed": 249.33
+    },
+    {
+        "planeID": "a300a9",
+        "callsign": "ASA269  ",
+        "reg_country": "United States",
+        "height": 11285.22,
+        "onground": false,
+        "speed": 255.09
+    },
+    {
+        "planeID": "ab1d30",
+        "callsign": "DAL124  ",
+        "reg_country": "United States",
+        "height": 4617.72,
+        "onground": false,
+        "speed": 196.05
+    },
+    {
+        "planeID": "a35c97",
+        "callsign": "JBU372  ",
+        "reg_country": "United States",
+        "height": 11277.6,
+        "onground": false,
+        "speed": 255.51
+    },
+    {
+        "planeID": "aa64ba",
+        "callsign": "UAL1141 ",
+        "reg_country": "United States",
+        "height": 11277.6,
+        "onground": false,
+        "speed": 265.82
+    },
+    {
+        "planeID": "c006ec",
+        "callsign": "ACA178  ",
+        "reg_country": "Canada",
+        "height": 731.52,
+        "onground": false,
+        "speed": 84.92
+    },
+    {
+        "planeID": "a36eae",
+        "callsign": "DAL8965 ",
+        "reg_country": "United States",
+        "height": 11178.54,
+        "onground": false,
+        "speed": 204.14
+    },
+    {
+        "planeID": "a5fef4",
+        "callsign": "ASA351  ",
+        "reg_country": "United States",
+        "height": 10363.2,
+        "onground": false,
+        "speed": 239.71
+    },
+    {
+        "planeID": "a2f584",
+        "callsign": "ASA77   ",
+        "reg_country": "United States",
+        "height": 11582.4,
+        "onground": false,
+        "speed": 261.18
+    },
+    {
+        "planeID": "ac4f6f",
+        "callsign": "SWA3120 ",
+        "reg_country": "United States",
+        "height": 10668,
+        "onground": false,
+        "speed": 256.62
+    }
+]

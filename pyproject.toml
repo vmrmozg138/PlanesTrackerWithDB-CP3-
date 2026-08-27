@@ -9,8 +9,18 @@ readme = "README.md"
 python = "^3.14"
 requests = "^2.34.2"
 pandas = "^3.0.5"
+pytest = "^9.1.1"
+flake8 = "^7.3.0"
+black = "^26.5.1"
+isort = "^9.0.0"
+mypy = "^2.3.1"
 
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[dependency-groups]
+dev = [
+    "pytest-cov (>=7.1.0,<8.0.0)"
+]
