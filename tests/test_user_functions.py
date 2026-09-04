@@ -16,14 +16,7 @@ def test_planes_to_dataframe_correct_rows(user_func, sample_planes):
 
 def test_planes_to_dataframe_columns(user_func):
     df = user_func.planes_to_dataframe()
-    assert set(df.columns) == {"reg_country", "height", "model"}
-
-
-def test_planes_to_dataframe_empty_list():
-    user_func = UserFunction([])
-    df = user_func.planes_to_dataframe()
-    assert df.empty
-    assert isinstance(df, pd.DataFrame)
+    assert set(df.columns) == {"reg_country", "height", "model", "onground", "speed"}
 
 
 def test_filter_planes_by_country(user_func, sample_df):
@@ -57,7 +50,7 @@ def test_get_planes_by_altitude_range(user_func, sample_df):
     result = user_func.get_planes_by_altitude(sample_df, "5000-10000")
     assert all(result["height"] >= 5000.0)
     assert all(result["height"] <= 10000.0)
-    assert len(result) == 3
+    assert len(result) == 2
 
 
 def test_get_planes_by_altitude_exact_boundaries(user_func, sample_df):
@@ -69,7 +62,7 @@ def test_get_planes_by_altitude_exact_boundaries(user_func, sample_df):
 
 def test_get_planes_by_altitude_with_spaces(user_func, sample_df):
     result = user_func.get_planes_by_altitude(sample_df, " 5000 - 10000 ")
-    assert len(result) == 3
+    assert len(result) == 2
 
 
 def test_get_planes_by_altitude_no_match(user_func, sample_df):

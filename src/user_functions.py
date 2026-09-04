@@ -8,7 +8,11 @@ class UserFunction:
         self.__planes = planes
 
     def planes_to_dataframe(self):
-        return pd.DataFrame([p.to_dict() for p in self.__planes])
+        df = pd.DataFrame([p.to_dict() for p in self.__planes])
+        mask_onground = df["onground"] == True
+        df.loc[mask_onground, "speed"] = 0
+        df.loc[mask_onground, "height"] = 0
+        return df
 
     def filter_planes(self, df: pd.DataFrame, filter_words: list):
         return df[df["reg_country"].isin(filter_words)].reset_index(drop=True)

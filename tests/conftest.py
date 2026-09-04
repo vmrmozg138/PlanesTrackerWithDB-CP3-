@@ -1,13 +1,81 @@
 import json
 from dataclasses import dataclass
 from unittest.mock import MagicMock, patch
-
 import pytest
-
 from src.api import APIConnect
+from src.db_manager import DBManager
 from src.plane import Plane
 from src.processor import PlanesProcessor
 from src.user_functions import UserFunction
+import pandas as pd
+
+@pytest.fixture
+def config():
+    return {
+        "dbname": "testdb",
+        "user": "postgres",
+        "password": "secret",
+        "host": "localhost",
+        "port": 5433,
+    }
+
+
+@pytest.fixture
+def df_sample():
+    return pd.DataFrame(
+        [
+            {
+                "planeID": "A123",
+                "callsign": "FLT101",
+                "height": 35000.0,
+                "onground": False,
+                "speed": 450.0,
+            },
+            {
+                "planeID": "B456",
+                "callsign": "FLT202",
+                "height": 33000.0,
+                "onground": True,
+                "speed": 0.0,
+            },
+        ]
+    )
+
+
+@pytest.fixture
+def data_sample(df_sample):
+    return [
+        {"country_id": 1, "country_name": "Canada", "data": df_sample},
+        {"country_id": 2, "country_name": "UK", "data": df_sample},
+    ]
+
+
+@pytest.fixture
+def mock_conn():
+    conn = MagicMock()
+    cur = MagicMock()
+
+    # ВАЖНО: без этого _ensure_connected считает соединение закрытым
+    conn.closed = False
+
+    conn.__enter__ = MagicMock(return_value=conn)
+    conn.__exit__ = MagicMock(return_value=False)
+    conn.cursor.return_value = cur
+
+    cur.fetchone.return_value = (42,)
+    cur.rowcount = 2
+
+    return conn
+
+
+@pytest.fixture
+def db(config, mock_conn):
+    """DBManager с замоканным psycopg2.connect."""
+    with patch("src.db_manager.psycopg2.connect", return_value=mock_conn):
+        manager = DBManager()
+        manager.connect(config)
+        yield manager
+
 
 
 @pytest.fixture
@@ -126,10 +194,10 @@ class FakePlane:
 def sample_planes():
     """Список из 4 самолётов с разными странами и высотами."""
     return [
-        FakePlane({"reg_country": "RU", "height": 10000.0, "model": "Boeing 737"}),
-        FakePlane({"reg_country": "US", "height": 5000.0, "model": "Airbus A320"}),
-        FakePlane({"reg_country": "RU", "height": 12000.0, "model": "Tu-204"}),
-        FakePlane({"reg_country": "CN", "height": 8000.0, "model": "C919"}),
+        FakePlane({"reg_country": "RU", "height": 10000.0, "model": "Boeing 737", "onground": False, "speed": 500.0}),
+        FakePlane({"reg_country": "US", "height": 5000.0, "model": "Airbus A320", "onground": False, "speed": 500.0}),
+        FakePlane({"reg_country": "RU", "height": 12000.0, "model": "Tu-204", "onground": False, "speed": 500.0}),
+        FakePlane({"reg_country": "CN", "height": 0, "model": "C919", "onground": True, "speed": 0}),
     ]
 
 
@@ -143,3 +211,5 @@ def sample_df(sample_planes):
 @pytest.fixture
 def user_func(sample_planes):
     return UserFunction(sample_planes)
+
+

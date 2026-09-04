@@ -3,43 +3,53 @@ from src.file_handler import JsonFileHandler
 from src.processor import PlanesProcessor
 from src.user_functions import UserFunction
 import pathlib
+from src.db_manager import DBManager
+from src.config import config
 
 BASE_DIR = pathlib.Path(__file__).parent
 file_path_output = BASE_DIR / 'data' / 'planes_output.json'
 
 
 def user_intreaction():
-    country = input("Введите название страны: ")
-    top_n = int(input("Введите количество самолетов для вывода в топ N: "))
-    filter_words = input("Введите названия стран для фильтрации по стране регистрации: ").split()
-    altitude_range = input("Введите диапазон высот полета: ")
+    countries = input("Введите названия стран через пробелы для отслеживания самолетов(не менее 4):").split()
+
+    while len(countries) < 4:
+        add_countries = input(f"Вы ввели {len(countries)}, но надо еще хотя бы {4 - len(countries)}: ").split()
+        countries.extend(add_countries)
+
+    print(countries)
 
     api = APIConnect()
 
-    result = api.get_data(country, 'test-app/1.0')
-    print(type(result))
+    planes_in_countries = []
 
-    processor = PlanesProcessor()
-    planes = processor.transform_to_objects(result)
-    print(type(planes))
-    print(len(result))
+    for index, country in enumerate(countries):
+        result = api.get_data(country, 'test-app/1.0')
+        processor = PlanesProcessor()
+        planes = processor.transform_to_objects(result)
+        uf = UserFunction(planes)
+        df = uf.planes_to_dataframe()
+        planes_in_countries.append({'country_id': index + 1, 'country_name': country, 'data': df})
 
-    uf = UserFunction(planes)
-    df = uf.planes_to_dataframe()
+    db_manager = DBManager()
+    db_manager.connect(config())
 
-    filtered_aeroplanes = uf.filter_planes(df, filter_words)
-    print(type(filtered_aeroplanes))
-    sorted_aeroplanes = uf.sort_planes(filtered_aeroplanes, ascending=False)
+    db_manager.write_once(planes_in_countries)
 
-    top_aeroplanes = uf.get_top_planes(sorted_aeroplanes, top_n)
+    df1 = db_manager.get_countries_and_aeroplanes_count()
 
-    fh = JsonFileHandler()
-    file_path_output.parent.mkdir(parents=True, exist_ok=True)
-    planes_data = [p.to_dict() for p in planes]
-    fh.write(planes_data, str(file_path_output))
+    df2 = db_manager.get_aeroplanes_with_higher_speed()
 
-    print(file_path_output)
+    df3 = db_manager.get_aeroplanes_with_keyword('sa')
+
+    print(df1)
+
+    print(df2)
+
+    print(df3)
 
 
 if __name__ == '__main__':
     user_intreaction()
+
+

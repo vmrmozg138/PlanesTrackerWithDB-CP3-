@@ -24,6 +24,7 @@ share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+database.ini
 MANIFEST
 
 # PyInstaller
@@ -38,6 +39,7 @@ pip-delete-this-directory.txt
 
 # Unit test / coverage reports
 htmlcov/
+!htmlcov/index.html
 .tox/
 .nox/
 .coverage
