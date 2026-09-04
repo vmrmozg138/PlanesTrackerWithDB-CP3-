@@ -1,8 +1,9 @@
 from abc import ABC, abstractmethod
-from typing import List, Dict, Any, Optional, Tuple
-import psycopg2
-from psycopg2 import sql, extras
+from typing import Any, Dict, List, Optional, Tuple
+
 import pandas as pd
+import psycopg2
+from psycopg2 import extras, sql
 
 
 class AbstractDBManager(ABC):
@@ -15,7 +16,9 @@ class AbstractDBManager(ABC):
         pass
 
     @abstractmethod
-    def fetch_processed(self, query: str, params: Optional[Tuple] = None) -> List[Dict[str, Any]]:
+    def fetch_processed(
+        self, query: str, params: Optional[Tuple] = None
+    ) -> List[Dict[str, Any]]:
         pass
 
 
@@ -23,11 +26,11 @@ class DBManager(AbstractDBManager):
 
     # Маппинг: имя колонки в DataFrame → имя колонки в таблице planes
     COLUMN_MAP = {
-        "planeID":  "plane_id",
+        "planeID": "plane_id",
         "callsign": "callsign",
-        "height":   "height",
+        "height": "height",
         "onground": "onground",
-        "speed":    "speed",
+        "speed": "speed",
     }
 
     def __init__(self):
@@ -41,7 +44,9 @@ class DBManager(AbstractDBManager):
 
     def _ensure_connected(self) -> None:
         if self.conn is None or self.conn.closed:
-            raise RuntimeError("Соединение с БД не установлено. Вызовите connect(config).")
+            raise RuntimeError(
+                "Соединение с БД не установлено. Вызовите connect(config)."
+            )
 
     # ─── публичный метод: точка входа ───
 
@@ -60,7 +65,7 @@ class DBManager(AbstractDBManager):
 
         total_planes = 0
 
-        with self.conn:                       # одна транзакция на всё
+        with self.conn:  # одна транзакция на всё
             with self.conn.cursor() as cur:
                 cur.execute("TRUNCATE TABLE countries, planes RESTART IDENTITY CASCADE")
 
@@ -92,14 +97,19 @@ class DBManager(AbstractDBManager):
             return 0
 
         # Формируем список колонок БД в нужном порядке
-        df_cols = list(self.COLUMN_MAP.keys())   # ['planeID', 'callsign', 'height', 'onground', 'speed']
-        db_cols = list(self.COLUMN_MAP.values()) # ['plane_id', 'callsign', 'height', 'onground', 'speed']
+        df_cols = list(
+            self.COLUMN_MAP.keys()
+        )  # ['planeID', 'callsign', 'height', 'onground', 'speed']
 
-        # Добавляем country_id — его нет в DataFrame, он пришёл из RETURNING
-        all_db_cols = ["plane_id", "callsign", "country_id", "height", "onground", "speed"]
+        all_db_cols = [
+            "plane_id",
+            "callsign",
+            "country_id",
+            "height",
+            "onground",
+            "speed",
+        ]
 
-        # Собираем плейсхолдеры: 6 колонок → (%s, %s, %s, %s, %s, %s)
-        placeholders = sql.SQL(", ").join([sql.Placeholder()] * len(all_db_cols))
 
         insert_query = sql.SQL("""
                     INSERT INTO planes ({cols}) VALUES ({ph})
@@ -118,13 +128,13 @@ class DBManager(AbstractDBManager):
         values = []
         for _, row in df.iterrows():
             row_values = [row[col] for col in df_cols]  # 5 значений из DataFrame
-            row_values.insert(2, country_id)           # вставляем country_id на 3-ю позицию
+            row_values.insert(2, country_id)  # вставляем country_id на 3-ю позицию
             values.append(tuple(row_values))
 
         cur.executemany(insert_query, values)
         return cur.rowcount
 
-    def fetch_processed(self, query: str, params: Optional[Tuple] = None) :
+    def fetch_processed(self, query: str, params: Optional[Tuple] = None):
         """SELECT с обработкой — возвращает список словарей."""
         self._ensure_connected()
 
@@ -139,7 +149,6 @@ class DBManager(AbstractDBManager):
             group by country_id"""
 
         return self.fetch_processed(query)
-
 
     def get_all_aeroplanes(self):
         query = """select * from planes"""
@@ -157,12 +166,7 @@ class DBManager(AbstractDBManager):
         FROM planes)"""
         return self.fetch_processed(query)
 
-
     def get_aeroplanes_with_keyword(self, keyword):
         query = f"""select * from planes
         where lower(trim(callsign)) like '%{keyword.lower().strip()}%'"""
         return self.fetch_processed(query)
-
-
-
-
